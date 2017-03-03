@@ -12,9 +12,9 @@ The trainingtool is a simple tool, it has online few functions, but it can be ve
 * Windows 7 or higher (Vista and XP should work too)
 * Course for learning stenographie
 
-## How do I get set up?
+## How do I set the tool up?
 
-The setup is really simple. Just download the recent version from the repository and open it with a double-click: Missing Link
+The setup is really simple. Just download the recent version from the repository and open it with a double-click: https://bitbucket.org/Micky261/stenographie_trainingtool/downloads/
 
 ## How to make contributions?
 
@@ -22,4 +22,4 @@ Currently there is no way to contribute to this project.
 
 ## How can I contact you?
 
-Whether you have an error, issue or idea, you can simply open a ticket. Just click on the link and create one: Missing Link
+Whether you have an error, issue or idea, you can simply open a ticket. Just click on the link and create one: https://bitbucket.org/Micky261/stenographie_trainingtool/issues

@@ -117,4 +117,373 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="richboxInputWordletter.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="richboxInputWordletter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="richboxInputWordletter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 277</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="richboxInputWordletter.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="richboxInputWordletter.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;richboxInputWordletter.Name" xml:space="preserve">
+    <value>richboxInputWordletter</value>
+  </data>
+  <data name="&gt;&gt;richboxInputWordletter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;richboxInputWordletter.Parent" xml:space="preserve">
+    <value>groupboxInputs</value>
+  </data>
+  <data name="&gt;&gt;richboxInputWordletter.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="textboxInputAmount.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="textboxInputAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 19</value>
+  </data>
+  <data name="textboxInputAmount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 20</value>
+  </data>
+  <data name="textboxInputAmount.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;textboxInputAmount.Name" xml:space="preserve">
+    <value>textboxInputAmount</value>
+  </data>
+  <data name="&gt;&gt;textboxInputAmount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textboxInputAmount.Parent" xml:space="preserve">
+    <value>groupboxInputs</value>
+  </data>
+  <data name="&gt;&gt;textboxInputAmount.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="textboxOutput.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="textboxOutput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="textboxOutput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 20</value>
+  </data>
+  <data name="textboxOutput.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;textboxOutput.Name" xml:space="preserve">
+    <value>textboxOutput</value>
+  </data>
+  <data name="&gt;&gt;textboxOutput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textboxOutput.Parent" xml:space="preserve">
+    <value>groupboxOutput</value>
+  </data>
+  <data name="&gt;&gt;textboxOutput.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="buttonCopy.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="buttonCopy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 58</value>
+  </data>
+  <data name="buttonCopy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 23</value>
+  </data>
+  <data name="buttonCopy.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="buttonCopy.Text" xml:space="preserve">
+    <value>buttonCopy</value>
+  </data>
+  <data name="&gt;&gt;buttonCopy.Name" xml:space="preserve">
+    <value>buttonCopy</value>
+  </data>
+  <data name="&gt;&gt;buttonCopy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonCopy.Parent" xml:space="preserve">
+    <value>groupboxOutput</value>
+  </data>
+  <data name="&gt;&gt;buttonCopy.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="buttonGenerateRandoms.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="buttonGenerateRandoms.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 293</value>
+  </data>
+  <data name="buttonGenerateRandoms.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 23</value>
+  </data>
+  <data name="buttonGenerateRandoms.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="buttonGenerateRandoms.Text" xml:space="preserve">
+    <value>buttonGenerateRandoms</value>
+  </data>
+  <data name="&gt;&gt;buttonGenerateRandoms.Name" xml:space="preserve">
+    <value>buttonGenerateRandoms</value>
+  </data>
+  <data name="&gt;&gt;buttonGenerateRandoms.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonGenerateRandoms.Parent" xml:space="preserve">
+    <value>groupboxInputs</value>
+  </data>
+  <data name="&gt;&gt;buttonGenerateRandoms.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="labelInputAmount.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="labelInputAmount.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelInputAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 42</value>
+  </data>
+  <data name="labelInputAmount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 13</value>
+  </data>
+  <data name="labelInputAmount.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="labelInputAmount.Text" xml:space="preserve">
+    <value>Anzahl Elemente</value>
+  </data>
+  <data name="&gt;&gt;labelInputAmount.Name" xml:space="preserve">
+    <value>labelInputAmount</value>
+  </data>
+  <data name="&gt;&gt;labelInputAmount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelInputAmount.Parent" xml:space="preserve">
+    <value>groupboxInputs</value>
+  </data>
+  <data name="&gt;&gt;labelInputAmount.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="labelOutput.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="labelOutput.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelOutput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 42</value>
+  </data>
+  <data name="labelOutput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 13</value>
+  </data>
+  <data name="labelOutput.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="labelOutput.Text" xml:space="preserve">
+    <value>Kopieren oder Anzeigen</value>
+  </data>
+  <data name="&gt;&gt;labelOutput.Name" xml:space="preserve">
+    <value>labelOutput</value>
+  </data>
+  <data name="&gt;&gt;labelOutput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelOutput.Parent" xml:space="preserve">
+    <value>groupboxOutput</value>
+  </data>
+  <data name="&gt;&gt;labelOutput.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="groupboxInputs.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="labelInputWordletter.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="&gt;&gt;labelInputWordletter.Name" xml:space="preserve">
+    <value>labelInputWordletter</value>
+  </data>
+  <data name="&gt;&gt;labelInputWordletter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelInputWordletter.Parent" xml:space="preserve">
+    <value>groupboxInputs</value>
+  </data>
+  <data name="&gt;&gt;labelInputWordletter.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupboxInputs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="groupboxInputs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>349, 325</value>
+  </data>
+  <data name="groupboxInputs.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="groupboxInputs.Text" xml:space="preserve">
+    <value>Eingabe</value>
+  </data>
+  <data name="&gt;&gt;groupboxInputs.Name" xml:space="preserve">
+    <value>groupboxInputs</value>
+  </data>
+  <data name="&gt;&gt;groupboxInputs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupboxInputs.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupboxInputs.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="labelInputWordletter.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="labelInputWordletter.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelInputWordletter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 303</value>
+  </data>
+  <data name="labelInputWordletter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 13</value>
+  </data>
+  <data name="labelInputWordletter.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="labelInputWordletter.Text" xml:space="preserve">
+    <value>Zeichen und Wörter eingeben</value>
+  </data>
+  <data name="&gt;&gt;labelInputWordletter.Name" xml:space="preserve">
+    <value>labelInputWordletter</value>
+  </data>
+  <data name="&gt;&gt;labelInputWordletter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelInputWordletter.Parent" xml:space="preserve">
+    <value>groupboxInputs</value>
+  </data>
+  <data name="&gt;&gt;labelInputWordletter.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="groupboxOutput.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="buttonOpenDialog.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="buttonOpenDialog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 88</value>
+  </data>
+  <data name="buttonOpenDialog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 23</value>
+  </data>
+  <data name="buttonOpenDialog.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="buttonOpenDialog.Text" xml:space="preserve">
+    <value>buttonOpenDialog</value>
+  </data>
+  <data name="&gt;&gt;buttonOpenDialog.Name" xml:space="preserve">
+    <value>buttonOpenDialog</value>
+  </data>
+  <data name="&gt;&gt;buttonOpenDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonOpenDialog.Parent" xml:space="preserve">
+    <value>groupboxOutput</value>
+  </data>
+  <data name="&gt;&gt;buttonOpenDialog.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupboxOutput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>367, 12</value>
+  </data>
+  <data name="groupboxOutput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 122</value>
+  </data>
+  <data name="groupboxOutput.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="groupboxOutput.Text" xml:space="preserve">
+    <value>Ausgabe</value>
+  </data>
+  <data name="&gt;&gt;groupboxOutput.Name" xml:space="preserve">
+    <value>groupboxOutput</value>
+  </data>
+  <data name="&gt;&gt;groupboxOutput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupboxOutput.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupboxOutput.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="tooltipInputWordletters.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="tooltipOutput.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>358, 17</value>
+  </metadata>
+  <metadata name="tooltipInputAmount.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>198, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>574, 340</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Stenographie Trainer</value>
+  </data>
+  <data name="&gt;&gt;tooltipInputWordletters.Name" xml:space="preserve">
+    <value>tooltipInputWordletters</value>
+  </data>
+  <data name="&gt;&gt;tooltipInputWordletters.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tooltipOutput.Name" xml:space="preserve">
+    <value>tooltipOutput</value>
+  </data>
+  <data name="&gt;&gt;tooltipOutput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tooltipInputAmount.Name" xml:space="preserve">
+    <value>tooltipInputAmount</value>
+  </data>
+  <data name="&gt;&gt;tooltipInputAmount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>formStenoTrainerMain</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

@@ -141,27 +141,6 @@
     <value>groupboxInputs</value>
   </data>
   <data name="&gt;&gt;richboxInputWordletter.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="textboxInputAmount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>204, 19</value>
-  </data>
-  <data name="textboxInputAmount.Size" type="System.Drawing.Size, System.Drawing">
-    <value>139, 20</value>
-  </data>
-  <data name="textboxInputAmount.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;textboxInputAmount.Name" xml:space="preserve">
-    <value>textboxInputAmount</value>
-  </data>
-  <data name="&gt;&gt;textboxInputAmount.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textboxInputAmount.Parent" xml:space="preserve">
-    <value>groupboxInputs</value>
-  </data>
-  <data name="&gt;&gt;textboxInputAmount.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
   <data name="textboxOutput.Location" type="System.Drawing.Point, System.Drawing">
@@ -171,7 +150,7 @@
     <value>187, 20</value>
   </data>
   <data name="textboxOutput.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+    <value>3</value>
   </data>
   <data name="&gt;&gt;textboxOutput.Name" xml:space="preserve">
     <value>textboxOutput</value>
@@ -196,7 +175,7 @@
     <value>187, 23</value>
   </data>
   <data name="buttonCopy.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="buttonCopy.Text" xml:space="preserve">
     <value>In Zwischenablage kopieren</value>
@@ -220,7 +199,7 @@
     <value>139, 23</value>
   </data>
   <data name="buttonGenerateRandoms.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+    <value>2</value>
   </data>
   <data name="buttonGenerateRandoms.Text" xml:space="preserve">
     <value>Ausgabe generieren</value>
@@ -235,13 +214,13 @@
     <value>groupboxInputs</value>
   </data>
   <data name="&gt;&gt;buttonGenerateRandoms.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="labelInputAmount.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="labelInputAmount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>204, 42</value>
+    <value>201, 42</value>
   </data>
   <data name="labelInputAmount.Size" type="System.Drawing.Size, System.Drawing">
     <value>86, 13</value>
@@ -262,7 +241,7 @@
     <value>groupboxInputs</value>
   </data>
   <data name="&gt;&gt;labelInputAmount.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="labelOutput.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -291,41 +270,29 @@
   <data name="&gt;&gt;labelOutput.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;labelInputWordletter.Name" xml:space="preserve">
-    <value>labelInputWordletter</value>
+  <data name="textboxInputAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 19</value>
   </data>
-  <data name="&gt;&gt;labelInputWordletter.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="textboxInputAmount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 20</value>
   </data>
-  <data name="&gt;&gt;labelInputWordletter.Parent" xml:space="preserve">
-    <value>groupboxInputs</value>
-  </data>
-  <data name="&gt;&gt;labelInputWordletter.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="groupboxInputs.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
-  </data>
-  <data name="groupboxInputs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>349, 325</value>
-  </data>
-  <data name="groupboxInputs.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="groupboxInputs.Text" xml:space="preserve">
-    <value>Eingabe</value>
-  </data>
-  <data name="&gt;&gt;groupboxInputs.Name" xml:space="preserve">
-    <value>groupboxInputs</value>
-  </data>
-  <data name="&gt;&gt;groupboxInputs.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupboxInputs.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;groupboxInputs.ZOrder" xml:space="preserve">
+  <data name="textboxInputAmount.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
+  </data>
+  <data name="textboxInputAmount.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;textboxInputAmount.Name" xml:space="preserve">
+    <value>textboxInputAmount</value>
+  </data>
+  <data name="&gt;&gt;textboxInputAmount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textboxInputAmount.Parent" xml:space="preserve">
+    <value>groupboxInputs</value>
+  </data>
+  <data name="&gt;&gt;textboxInputAmount.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="labelInputWordletter.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -352,7 +319,31 @@
     <value>groupboxInputs</value>
   </data>
   <data name="&gt;&gt;labelInputWordletter.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
+  </data>
+  <data name="groupboxInputs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="groupboxInputs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>349, 325</value>
+  </data>
+  <data name="groupboxInputs.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="groupboxInputs.Text" xml:space="preserve">
+    <value>Eingabe</value>
+  </data>
+  <data name="&gt;&gt;groupboxInputs.Name" xml:space="preserve">
+    <value>groupboxInputs</value>
+  </data>
+  <data name="&gt;&gt;groupboxInputs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupboxInputs.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupboxInputs.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="buttonSavePDF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -364,7 +355,7 @@
     <value>187, 23</value>
   </data>
   <data name="buttonSavePDF.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+    <value>6</value>
   </data>
   <data name="buttonSavePDF.Text" xml:space="preserve">
     <value>Als Übungen-PDF speichern</value>
@@ -388,7 +379,7 @@
     <value>187, 23</value>
   </data>
   <data name="buttonOpenDialog.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+    <value>5</value>
   </data>
   <data name="buttonOpenDialog.Text" xml:space="preserve">
     <value>In Dialog-Box öffnen</value>

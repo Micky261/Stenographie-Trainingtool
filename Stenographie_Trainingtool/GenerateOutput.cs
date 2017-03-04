@@ -7,34 +7,12 @@ namespace Stenographie_Trainingtool
     class GenerateOutput
     {
         //Methode zur Prüfung der Eingabe
-        public static bool proofTextBoxes(string inputAmount, string[] inputWords)
+        public static bool proofTextBoxes(string[] inputWords)
         {
             //Bool'sche Variable: Rückgabewert der Funktion erstellen
-            bool boolReturn = false;
-
-            //textboxAmount auf leere oder falsche Eingabe prüfen
-            if (inputAmount != "")
-            {
-                Int32 number = 0;
-                try
-                {
-                    number = Convert.ToInt32(inputAmount);
-                    boolReturn = true;
-                }
-                catch
-                {
-                    MessageBox.Show("Die Eingabe ist ungültig.");
-                    boolReturn = false;
-                }
-            }
-            else
-            {
-                MessageBox.Show("Die Eingabe enthält keinen Inhalt.");
-                boolReturn = false;
-            }
+            bool boolReturn = true;
 
             //richboxInputWordletters auf leere Eingabe prüfen, wenn leer die deutschen Artikel ausgeben
-            if (boolReturn == true)
             {
                 if (inputWords.Length == 0)
                 {
@@ -48,14 +26,14 @@ namespace Stenographie_Trainingtool
         }
 
         //Methode zur Generierung der Zeichenkette
-        public static string generateOutput(string amountElements, string[] elements)
+        public static string generateOutput(decimal amountElements, string[] elements)
         {
             string elementOutput = "";
-            Int32 elementAmount = Convert.ToInt32(amountElements);
+            decimal elementAmount = amountElements;
             Random randomNumber = new Random();
             int randomInElements;
 
-            for (Int32 i = 1; i <= elementAmount; i++)
+            for (decimal i = 1; i <= elementAmount; i++)
             {
                 randomInElements = randomNumber.Next(0, elements.Length);
             

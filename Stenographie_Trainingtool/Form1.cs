@@ -12,9 +12,6 @@ namespace Stenographie_Trainingtool
 {
     public partial class formStenoTrainerMain : Form
     {
-        //Klasse GenerateOutput initialisieren
-        GenerateOutput generateOutput = new GenerateOutput();
-
         public formStenoTrainerMain()
         {
             InitializeComponent();
@@ -25,11 +22,11 @@ namespace Stenographie_Trainingtool
 
         private void buttonGenerateRandoms_Click(object sender, EventArgs e)
         {
-            bool proofCorrect = GenerateOutput.proofTextBoxes(textboxInputAmount.Text, richboxInputWordletter.Lines);
+            bool proofCorrect = GenerateOutput.proofTextBoxes(richboxInputWordletter.Lines);
 
             if (proofCorrect == true)
             {
-                textboxOutput.Text = GenerateOutput.generateOutput(textboxInputAmount.Text, richboxInputWordletter.Lines);
+                textboxOutput.Text = GenerateOutput.generateOutput(textboxInputAmount.Value, richboxInputWordletter.Lines);
             }
         }
 
@@ -53,7 +50,7 @@ namespace Stenographie_Trainingtool
 
         private void buttonSavePDF_Click(object sender, EventArgs e)
         {
-            GeneratePDF pdfOutput = new GeneratePDF();
+            GeneratePDF.generatePDF(textboxOutput.Text);
         }
     }
 }

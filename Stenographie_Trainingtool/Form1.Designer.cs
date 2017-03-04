@@ -57,6 +57,7 @@
             // 
             resources.ApplyResources(this.textboxInputAmount, "textboxInputAmount");
             this.textboxInputAmount.Name = "textboxInputAmount";
+            this.textboxInputAmount.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textboxInputAmount_KeyDown);
             // 
             // textboxOutput
             // 
@@ -69,6 +70,7 @@
             resources.ApplyResources(this.buttonCopy, "buttonCopy");
             this.buttonCopy.Name = "buttonCopy";
             this.buttonCopy.UseVisualStyleBackColor = true;
+            this.buttonCopy.Click += new System.EventHandler(this.buttonCopy_Click);
             // 
             // buttonGenerateRandoms
             // 
@@ -118,6 +120,7 @@
             resources.ApplyResources(this.buttonOpenDialog, "buttonOpenDialog");
             this.buttonOpenDialog.Name = "buttonOpenDialog";
             this.buttonOpenDialog.UseVisualStyleBackColor = true;
+            this.buttonOpenDialog.Click += new System.EventHandler(this.buttonOpenDialog_Click);
             // 
             // formStenoTrainerMain
             // 
@@ -125,6 +128,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.groupboxOutput);
             this.Controls.Add(this.groupboxInputs);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "formStenoTrainerMain";
             this.groupboxInputs.ResumeLayout(false);

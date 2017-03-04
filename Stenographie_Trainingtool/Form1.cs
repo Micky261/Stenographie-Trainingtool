@@ -25,11 +25,29 @@ namespace Stenographie_Trainingtool
 
         private void buttonGenerateRandoms_Click(object sender, EventArgs e)
         {
-            bool proofCorrect;
-            proofCorrect = GenerateOutput.proofTextBoxes(textboxInputAmount.Text, richboxInputWordletter.Lines);
+            bool proofCorrect = GenerateOutput.proofTextBoxes(textboxInputAmount.Text, richboxInputWordletter.Lines);
+
             if (proofCorrect == true)
             {
+                textboxOutput.Text = GenerateOutput.generateOutput(textboxInputAmount.Text, richboxInputWordletter.Lines);
+            }
+        }
 
+        private void buttonCopy_Click(object sender, EventArgs e)
+        {
+            GenerateOutput.outputElementList("clipboard", textboxOutput.Text);
+        }
+
+        private void buttonOpenDialog_Click(object sender, EventArgs e)
+        {
+            GenerateOutput.outputElementList("dialogBox", textboxOutput.Text);
+        }
+
+        private void textboxInputAmount_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                buttonGenerateRandoms.PerformClick();
             }
         }
     }

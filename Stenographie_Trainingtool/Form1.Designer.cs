@@ -44,6 +44,7 @@
             this.tooltipInputWordletters = new System.Windows.Forms.ToolTip(this.components);
             this.tooltipOutput = new System.Windows.Forms.ToolTip(this.components);
             this.tooltipInputAmount = new System.Windows.Forms.ToolTip(this.components);
+            this.buttonSavePDF = new System.Windows.Forms.Button();
             this.groupboxInputs.SuspendLayout();
             this.groupboxOutput.SuspendLayout();
             this.SuspendLayout();
@@ -107,6 +108,7 @@
             // 
             // groupboxOutput
             // 
+            this.groupboxOutput.Controls.Add(this.buttonSavePDF);
             this.groupboxOutput.Controls.Add(this.buttonOpenDialog);
             this.groupboxOutput.Controls.Add(this.buttonCopy);
             this.groupboxOutput.Controls.Add(this.labelOutput);
@@ -121,6 +123,13 @@
             this.buttonOpenDialog.Name = "buttonOpenDialog";
             this.buttonOpenDialog.UseVisualStyleBackColor = true;
             this.buttonOpenDialog.Click += new System.EventHandler(this.buttonOpenDialog_Click);
+            // 
+            // buttonSavePDF
+            // 
+            resources.ApplyResources(this.buttonSavePDF, "buttonSavePDF");
+            this.buttonSavePDF.Name = "buttonSavePDF";
+            this.buttonSavePDF.UseVisualStyleBackColor = true;
+            this.buttonSavePDF.Click += new System.EventHandler(this.buttonSavePDF_Click);
             // 
             // formStenoTrainerMain
             // 
@@ -155,6 +164,7 @@
         private System.Windows.Forms.ToolTip tooltipInputWordletters;
         private System.Windows.Forms.ToolTip tooltipOutput;
         private System.Windows.Forms.ToolTip tooltipInputAmount;
+        private System.Windows.Forms.Button buttonSavePDF;
     }
 }
 

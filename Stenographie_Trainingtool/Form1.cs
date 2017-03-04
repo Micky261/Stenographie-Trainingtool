@@ -50,5 +50,10 @@ namespace Stenographie_Trainingtool
                 buttonGenerateRandoms.PerformClick();
             }
         }
+
+        private void buttonSavePDF_Click(object sender, EventArgs e)
+        {
+            GeneratePDF pdfOutput = new GeneratePDF();
+        }
     }
 }

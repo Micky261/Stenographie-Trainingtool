@@ -62,6 +62,7 @@
             // 
             resources.ApplyResources(this.textboxOutput, "textboxOutput");
             this.textboxOutput.Name = "textboxOutput";
+            this.textboxOutput.ReadOnly = true;
             // 
             // buttonCopy
             // 
@@ -74,6 +75,7 @@
             resources.ApplyResources(this.buttonGenerateRandoms, "buttonGenerateRandoms");
             this.buttonGenerateRandoms.Name = "buttonGenerateRandoms";
             this.buttonGenerateRandoms.UseVisualStyleBackColor = true;
+            this.buttonGenerateRandoms.Click += new System.EventHandler(this.buttonGenerateRandoms_Click);
             // 
             // labelInputAmount
             // 

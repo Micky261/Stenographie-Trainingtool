@@ -65,7 +65,7 @@ namespace Stenographie_Trainingtool
                     break;
                 //Kein Parameter -> Fehlermeldung
                 default:
-                    MessageBox.Show("Issue #000001\nKeine Output-Zuweisung - Bitte melden sie sich beim Entwickler!", Environment.NewLine);
+                    MessageBox.Show("Issue #000001\nKeine Output-Zuweisung - Bitte melden sie sich beim Entwickler!");
                     break;
             }
         }

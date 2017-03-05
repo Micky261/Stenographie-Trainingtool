@@ -61,16 +61,13 @@
             // labelLinkToolSource
             // 
             this.labelLinkToolSource.AutoSize = true;
-            this.labelLinkToolSource.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.labelLinkToolSource.LinkArea = new System.Windows.Forms.LinkArea(0, 67);
+            this.labelLinkToolSource.LinkArea = new System.Windows.Forms.LinkArea(0, 0);
             this.labelLinkToolSource.Location = new System.Drawing.Point(83, 28);
             this.labelLinkToolSource.Name = "labelLinkToolSource";
-            this.labelLinkToolSource.Size = new System.Drawing.Size(481, 17);
+            this.labelLinkToolSource.Size = new System.Drawing.Size(468, 13);
             this.labelLinkToolSource.TabIndex = 2;
-            this.labelLinkToolSource.TabStop = true;
             this.labelLinkToolSource.Text = "https://bitbucket.org/Micky261/stenographie_trainingtool/downloads/ - Download fr" +
     "om Bitbucket";
-            this.labelLinkToolSource.UseCompatibleTextRendering = true;
             // 
             // kabelToolAuthor
             // 
@@ -79,7 +76,7 @@
             this.kabelToolAuthor.Name = "kabelToolAuthor";
             this.kabelToolAuthor.Size = new System.Drawing.Size(72, 13);
             this.kabelToolAuthor.TabIndex = 3;
-            this.kabelToolAuthor.Text = "Version: 1.1.0";
+            this.kabelToolAuthor.Text = "Version: 1.1.2";
             // 
             // labelToolVersion
             // 

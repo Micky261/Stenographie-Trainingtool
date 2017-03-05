@@ -144,7 +144,7 @@
     <value>4</value>
   </data>
   <data name="textboxOutput.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 19</value>
+    <value>8, 18</value>
   </data>
   <data name="textboxOutput.Size" type="System.Drawing.Size, System.Drawing">
     <value>187, 20</value>
@@ -162,14 +162,14 @@
     <value>groupboxOutput</value>
   </data>
   <data name="&gt;&gt;textboxOutput.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>3</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="buttonCopy.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="buttonCopy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 60</value>
+    <value>6, 44</value>
   </data>
   <data name="buttonCopy.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
@@ -250,36 +250,6 @@
     <value>groupboxInputs</value>
   </data>
   <data name="&gt;&gt;labelInputAmount.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="labelOutput.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelOutput.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="labelOutput.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 43</value>
-  </data>
-  <data name="labelOutput.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 13</value>
-  </data>
-  <data name="labelOutput.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="labelOutput.Text" xml:space="preserve">
-    <value>Kopieren oder Anzeigen</value>
-  </data>
-  <data name="&gt;&gt;labelOutput.Name" xml:space="preserve">
-    <value>labelOutput</value>
-  </data>
-  <data name="&gt;&gt;labelOutput.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelOutput.Parent" xml:space="preserve">
-    <value>groupboxOutput</value>
-  </data>
-  <data name="&gt;&gt;labelOutput.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
   <data name="textboxInputAmount.Location" type="System.Drawing.Point, System.Drawing">
@@ -364,16 +334,16 @@
     <value>NoControl</value>
   </data>
   <data name="buttonSavePDF.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 114</value>
+    <value>6, 90</value>
   </data>
   <data name="buttonSavePDF.Size" type="System.Drawing.Size, System.Drawing">
-    <value>187, 23</value>
+    <value>186, 23</value>
   </data>
   <data name="buttonSavePDF.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
   <data name="buttonSavePDF.Text" xml:space="preserve">
-    <value>Als Übungen-PDF speichern</value>
+    <value>Als Steno-PDF speichern</value>
   </data>
   <data name="&gt;&gt;buttonSavePDF.Name" xml:space="preserve">
     <value>buttonSavePDF</value>
@@ -391,7 +361,7 @@
     <value>NoControl</value>
   </data>
   <data name="buttonOpenDialog.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 87</value>
+    <value>6, 67</value>
   </data>
   <data name="buttonOpenDialog.Size" type="System.Drawing.Size, System.Drawing">
     <value>187, 23</value>
@@ -418,7 +388,7 @@
     <value>367, 12</value>
   </data>
   <data name="groupboxOutput.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 147</value>
+    <value>200, 118</value>
   </data>
   <data name="groupboxOutput.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -439,13 +409,13 @@
     <value>1</value>
   </data>
   <metadata name="tooltipInputWordletters.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
+    <value>153, 17</value>
   </metadata>
   <metadata name="tooltipOutput.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>358, 17</value>
+    <value>494, 17</value>
   </metadata>
   <metadata name="tooltipInputAmount.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>198, 17</value>
+    <value>334, 17</value>
   </metadata>
   <data name="pictureToolInfo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -471,6 +441,9 @@
   <data name="&gt;&gt;pictureToolInfo.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <metadata name="saveFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -2246,6 +2219,12 @@
   </data>
   <data name="&gt;&gt;tooltipInputAmount.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saveFileDialog1.Name" xml:space="preserve">
+    <value>saveFileDialog1</value>
+  </data>
+  <data name="&gt;&gt;saveFileDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>formStenoTrainerMain</value>

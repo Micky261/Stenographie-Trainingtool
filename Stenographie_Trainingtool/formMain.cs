@@ -19,7 +19,6 @@ namespace Stenographie_Trainingtool
             //Tooltip-Texte
             tooltipInputWordletters.SetToolTip(labelInputWordletter, "Hier können Wörter und Zeichen eingegeben werden, die für die Übung genutzt werden sollen. Ein Wort/Zeichen pro Zeile.");
             tooltipInputAmount.SetToolTip(labelInputAmount, "Anzahl der zu generierenden Elemente aus linksstehender Liste.");
-            tooltipOutput.SetToolTip(labelOutput, "Ausgabe in die Zwischenablage kopieren oder als Dialog anzeigen.");
         }
 
         //Methode Element-Liste generieren (Button_Click)
@@ -62,8 +61,16 @@ namespace Stenographie_Trainingtool
         //Methode Als PDF speichern
         private void buttonSavePDF_Click(object sender, EventArgs e)
         {
+            //Button deaktivieren und Curse auf Sanduhr setzen
+            buttonSavePDF.Enabled = false;
+            buttonSavePDF.Cursor = Cursors.WaitCursor;
+
             //Methode PDF generieren aufrufen
             GeneratePDF.generatePDF(textboxOutput.Text);
+
+            //Button reaktivieren und Zeiger normalisieren
+            buttonSavePDF.Cursor = Cursors.Default;
+            buttonSavePDF.Enabled = true;
         }
 
         private void pictureToolInfo_Click(object sender, EventArgs e)

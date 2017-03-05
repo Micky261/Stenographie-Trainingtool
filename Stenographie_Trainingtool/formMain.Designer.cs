@@ -37,6 +37,7 @@
             this.labelInputAmount = new System.Windows.Forms.Label();
             this.labelOutput = new System.Windows.Forms.Label();
             this.groupboxInputs = new System.Windows.Forms.GroupBox();
+            this.textboxInputAmount = new System.Windows.Forms.NumericUpDown();
             this.labelInputWordletter = new System.Windows.Forms.Label();
             this.groupboxOutput = new System.Windows.Forms.GroupBox();
             this.buttonSavePDF = new System.Windows.Forms.Button();
@@ -44,10 +45,11 @@
             this.tooltipInputWordletters = new System.Windows.Forms.ToolTip(this.components);
             this.tooltipOutput = new System.Windows.Forms.ToolTip(this.components);
             this.tooltipInputAmount = new System.Windows.Forms.ToolTip(this.components);
-            this.textboxInputAmount = new System.Windows.Forms.NumericUpDown();
+            this.pictureToolInfo = new System.Windows.Forms.PictureBox();
             this.groupboxInputs.SuspendLayout();
-            this.groupboxOutput.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.textboxInputAmount)).BeginInit();
+            this.groupboxOutput.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureToolInfo)).BeginInit();
             this.SuspendLayout();
             // 
             // richboxInputWordletter
@@ -96,6 +98,22 @@
             this.groupboxInputs.Name = "groupboxInputs";
             this.groupboxInputs.TabStop = false;
             // 
+            // textboxInputAmount
+            // 
+            resources.ApplyResources(this.textboxInputAmount, "textboxInputAmount");
+            this.textboxInputAmount.Maximum = new decimal(new int[] {
+            500,
+            0,
+            0,
+            0});
+            this.textboxInputAmount.Name = "textboxInputAmount";
+            this.textboxInputAmount.Value = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
+            this.textboxInputAmount.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textboxInputAmount_KeyDown);
+            // 
             // labelInputWordletter
             // 
             resources.ApplyResources(this.labelInputWordletter, "labelInputWordletter");
@@ -126,26 +144,20 @@
             this.buttonOpenDialog.UseVisualStyleBackColor = true;
             this.buttonOpenDialog.Click += new System.EventHandler(this.buttonOpenDialog_Click);
             // 
-            // textboxInputAmount
+            // pictureToolInfo
             // 
-            resources.ApplyResources(this.textboxInputAmount, "textboxInputAmount");
-            this.textboxInputAmount.Maximum = new decimal(new int[] {
-            500,
-            0,
-            0,
-            0});
-            this.textboxInputAmount.Name = "textboxInputAmount";
-            this.textboxInputAmount.Value = new decimal(new int[] {
-            5,
-            0,
-            0,
-            0});
-            this.textboxInputAmount.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textboxInputAmount_KeyDown);
+            this.pictureToolInfo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureToolInfo.Image = global::Stenographie_Trainingtool.Properties.Resources.stenographie_trainingtool_info_16;
+            resources.ApplyResources(this.pictureToolInfo, "pictureToolInfo");
+            this.pictureToolInfo.Name = "pictureToolInfo";
+            this.pictureToolInfo.TabStop = false;
+            this.pictureToolInfo.Click += new System.EventHandler(this.pictureToolInfo_Click);
             // 
             // formStenoTrainerMain
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.pictureToolInfo);
             this.Controls.Add(this.groupboxOutput);
             this.Controls.Add(this.groupboxInputs);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -153,9 +165,10 @@
             this.Name = "formStenoTrainerMain";
             this.groupboxInputs.ResumeLayout(false);
             this.groupboxInputs.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.textboxInputAmount)).EndInit();
             this.groupboxOutput.ResumeLayout(false);
             this.groupboxOutput.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.textboxInputAmount)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureToolInfo)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -177,6 +190,7 @@
         private System.Windows.Forms.ToolTip tooltipInputAmount;
         private System.Windows.Forms.Button buttonSavePDF;
         private System.Windows.Forms.NumericUpDown textboxInputAmount;
+        private System.Windows.Forms.PictureBox pictureToolInfo;
     }
 }
 

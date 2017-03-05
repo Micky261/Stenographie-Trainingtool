@@ -35,7 +35,6 @@
             this.buttonCopy = new System.Windows.Forms.Button();
             this.buttonGenerateRandoms = new System.Windows.Forms.Button();
             this.labelInputAmount = new System.Windows.Forms.Label();
-            this.labelOutput = new System.Windows.Forms.Label();
             this.groupboxInputs = new System.Windows.Forms.GroupBox();
             this.textboxInputAmount = new System.Windows.Forms.NumericUpDown();
             this.labelInputWordletter = new System.Windows.Forms.Label();
@@ -46,6 +45,7 @@
             this.tooltipOutput = new System.Windows.Forms.ToolTip(this.components);
             this.tooltipInputAmount = new System.Windows.Forms.ToolTip(this.components);
             this.pictureToolInfo = new System.Windows.Forms.PictureBox();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.groupboxInputs.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.textboxInputAmount)).BeginInit();
             this.groupboxOutput.SuspendLayout();
@@ -81,11 +81,6 @@
             // 
             resources.ApplyResources(this.labelInputAmount, "labelInputAmount");
             this.labelInputAmount.Name = "labelInputAmount";
-            // 
-            // labelOutput
-            // 
-            resources.ApplyResources(this.labelOutput, "labelOutput");
-            this.labelOutput.Name = "labelOutput";
             // 
             // groupboxInputs
             // 
@@ -124,7 +119,6 @@
             this.groupboxOutput.Controls.Add(this.buttonSavePDF);
             this.groupboxOutput.Controls.Add(this.buttonOpenDialog);
             this.groupboxOutput.Controls.Add(this.buttonCopy);
-            this.groupboxOutput.Controls.Add(this.labelOutput);
             this.groupboxOutput.Controls.Add(this.textboxOutput);
             resources.ApplyResources(this.groupboxOutput, "groupboxOutput");
             this.groupboxOutput.Name = "groupboxOutput";
@@ -180,7 +174,6 @@
         private System.Windows.Forms.Button buttonCopy;
         private System.Windows.Forms.Button buttonGenerateRandoms;
         private System.Windows.Forms.Label labelInputAmount;
-        private System.Windows.Forms.Label labelOutput;
         private System.Windows.Forms.GroupBox groupboxInputs;
         private System.Windows.Forms.GroupBox groupboxOutput;
         private System.Windows.Forms.Label labelInputWordletter;
@@ -188,9 +181,10 @@
         private System.Windows.Forms.ToolTip tooltipInputWordletters;
         private System.Windows.Forms.ToolTip tooltipOutput;
         private System.Windows.Forms.ToolTip tooltipInputAmount;
-        private System.Windows.Forms.Button buttonSavePDF;
         private System.Windows.Forms.NumericUpDown textboxInputAmount;
         private System.Windows.Forms.PictureBox pictureToolInfo;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
+        private System.Windows.Forms.Button buttonSavePDF;
     }
 }
 

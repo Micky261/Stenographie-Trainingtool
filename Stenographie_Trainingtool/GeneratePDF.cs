@@ -15,6 +15,7 @@ namespace Stenographie_Trainingtool
     {
         public static void generatePDF(string elementList)
         {
+            string filename = string.Empty;
 
             // PDF-Dokument initialisieren und Eigenschaften hinzufügen
             PdfDocument document = new PdfDocument();
@@ -75,17 +76,37 @@ namespace Stenographie_Trainingtool
                 //Nach 17 Elementen abbrechen
                 if (l > 16) break;
             }
+            
+            //Speicherdialog initialisieren und Eigenschaften festlegen
+            SaveFileDialog dlg = new SaveFileDialog();
+            dlg.FileName = "StenoÜbung";                        //Standarddateiname
+            dlg.DefaultExt = ".pdf";                            //Standarddateierweiterung
+            dlg.Filter = "PDF documents (.pdf)|*.pdf";          //Nur .pdf als Dateierweiterung zulassen
+            dlg.AddExtension = true;                            //Erweiterung hinzufügen, wenn nicht in Nutzereingabe
+            dlg.Title = "Stenographie-Übungsblatt speichern";   //Titel des Dialogs
 
-            //Timestamp generieren
-            TimeSpan t = (DateTime.UtcNow - new DateTime(1970, 1, 1));
-            int timestamp = (int)t.TotalSeconds;
-
-            // Dokument speichern
-            string filename = "Übung_" + timestamp.ToString() + ".pdf";
-            document.Save(filename);
-
-            //Erfolgsmeldung
-            MessageBox.Show("Die PDF wurde generiert und als " + filename + " abgespeichert.\nDie PDF-Datei kann bis zu 17 Buchstaben oder Wörter aufnehmen. Fehlende wurden durch Leerzeichen ersetzt und überschüssige entfernt.");
+            // Speicherdialog anzeigen und bei positiver Rückmeldung speichern
+            if (dlg.ShowDialog() == DialogResult.OK)
+            {
+                // Save document 
+                filename = dlg.FileName;
+                document.Save(filename);
+                //Erfolgsmeldung ausgeben
+                MessageBox.Show(
+                    "Die PDF wurde generiert und unter \n"+
+                    "\n"+
+                    filename + "\n"+
+                    "\n"+
+                    "gespeichert.\n"+
+                    "\n"+
+                    "(Die PDF-Datei kann bis zu 17 Buchstaben oder Wörter aufnehmen. Fehlende wurden durch Leerzeichen ersetzt und überschüssige entfernt.)"
+                );
+            }
+            else
+            {
+                //Fehlermeldung
+                MessageBox.Show("Das Speichern ist fehlgeschlagen.");
+            }
         }
     }
 }

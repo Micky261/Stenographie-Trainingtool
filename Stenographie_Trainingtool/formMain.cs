@@ -12,6 +12,8 @@ namespace Stenographie_Trainingtool
 {
     public partial class formStenoTrainerMain : Form
     {
+        //GenerateOutput-Klasse initialisieren
+        GenerateOutput genOut = new GenerateOutput();
         //Main-Method
         public formStenoTrainerMain()
         {
@@ -25,12 +27,12 @@ namespace Stenographie_Trainingtool
         private void buttonGenerateRandoms_Click(object sender, EventArgs e)
         {
             //Prüfmethode aufrufen und Rückgbe speichern
-            bool proofCorrect = GenerateOutput.proofTextBoxes(richboxInputWordletter.Lines);
+            bool proofCorrect = genOut.proofTextBoxes(richboxInputWordletter.Lines);
 
             //Wenn Rückgabe erfolgreich, dann Element-Liste generieren
             if (proofCorrect == true)
             {
-                textboxOutput.Text = GenerateOutput.generateOutput(textboxInputAmount.Value, richboxInputWordletter.Lines);
+                textboxOutput.Text = genOut.generateOutput(textboxInputAmount.Value, richboxInputWordletter.Lines);
             }
         }
 
@@ -38,14 +40,14 @@ namespace Stenographie_Trainingtool
         private void buttonCopy_Click(object sender, EventArgs e)
         {
             //Methode outputElementList für Zwischenablage aufrufen
-            GenerateOutput.outputElementList("clipboard", textboxOutput.Text);
+            genOut.outputElementList("clipboard", textboxOutput.Text);
         }
 
         //Methode Als Dialogbox anzeigen
         private void buttonOpenDialog_Click(object sender, EventArgs e)
         {
             //Methode outputElemetList für Dialog-Box aufrufen
-            GenerateOutput.outputElementList("dialogBox", textboxOutput.Text);
+            genOut.outputElementList("dialogBox", textboxOutput.Text);
         }
 
         //Methode Enter abfangen in Amount-Textbox
@@ -61,12 +63,14 @@ namespace Stenographie_Trainingtool
         //Methode Als PDF speichern
         private void buttonSavePDF_Click(object sender, EventArgs e)
         {
+            //GeneratePDF-Klasse initialisieren
+            GeneratePDF genOutPDF = new GeneratePDF();
             //Button deaktivieren und Curse auf Sanduhr setzen
             buttonSavePDF.Enabled = false;
             buttonSavePDF.Cursor = Cursors.WaitCursor;
 
             //Methode PDF generieren aufrufen
-            GeneratePDF.generatePDF(textboxOutput.Text);
+            genOutPDF.generatePDF(textboxOutput.Text);
 
             //Button reaktivieren und Zeiger normalisieren
             buttonSavePDF.Cursor = Cursors.Default;

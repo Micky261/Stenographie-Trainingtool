@@ -42,10 +42,8 @@
             this.buttonSavePDF = new System.Windows.Forms.Button();
             this.buttonOpenDialog = new System.Windows.Forms.Button();
             this.tooltipInputWordletters = new System.Windows.Forms.ToolTip(this.components);
-            this.tooltipOutput = new System.Windows.Forms.ToolTip(this.components);
             this.tooltipInputAmount = new System.Windows.Forms.ToolTip(this.components);
             this.pictureToolInfo = new System.Windows.Forms.PictureBox();
-            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.groupboxInputs.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.textboxInputAmount)).BeginInit();
             this.groupboxOutput.SuspendLayout();
@@ -179,11 +177,9 @@
         private System.Windows.Forms.Label labelInputWordletter;
         private System.Windows.Forms.Button buttonOpenDialog;
         private System.Windows.Forms.ToolTip tooltipInputWordletters;
-        private System.Windows.Forms.ToolTip tooltipOutput;
         private System.Windows.Forms.ToolTip tooltipInputAmount;
         private System.Windows.Forms.NumericUpDown textboxInputAmount;
         private System.Windows.Forms.PictureBox pictureToolInfo;
-        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
         private System.Windows.Forms.Button buttonSavePDF;
     }
 }

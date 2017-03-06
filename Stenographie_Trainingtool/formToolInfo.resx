@@ -124,7 +124,7 @@
 - Unerlaubte Änderungen und deren Weitergabe ist verboten. Wer am Projekt teilhaben möchte, kann im Repository anfragen.
 - Die Entfernung des Copyrights und der Nutzungsbedingungen ist verboten.
 - Die kommerzielle Nutzung des fertig kompilierten Projektes ist erlaubt, solange die restlichen Nutzungsbedingungen nicht verletzt werden.
-- Mit Nutzung des Trainingtool akzeptieren Sie diese Nuutzungsbedingungen.</value>
+- Mit Nutzung des Trainingtool akzeptieren Sie diese Nutzungsbedingungen.</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

@@ -13,7 +13,7 @@ namespace Stenographie_Trainingtool
 {
     class GeneratePDF
     {
-        public static void generatePDF(string elementList)
+        public void generatePDF(string elementList)
         {
             string filename = string.Empty;
 
@@ -93,12 +93,12 @@ namespace Stenographie_Trainingtool
                 document.Save(filename);
                 //Erfolgsmeldung ausgeben
                 MessageBox.Show(
-                    "Die PDF wurde generiert und unter \n"+
-                    "\n"+
-                    filename + "\n"+
-                    "\n"+
-                    "gespeichert.\n"+
-                    "\n"+
+                    "Die PDF wurde generiert und unter \r\n" +
+                    "\r\n" +
+                    filename + "\r\n" +
+                    "\r\n" +
+                    "gespeichert.\r\n" +
+                    "\r\n" +
                     "(Die PDF-Datei kann bis zu 17 Buchstaben oder Wörter aufnehmen. Fehlende wurden durch Leerzeichen ersetzt und überschüssige entfernt.)"
                 );
             }

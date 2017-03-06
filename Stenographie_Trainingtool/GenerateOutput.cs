@@ -7,7 +7,7 @@ namespace Stenographie_Trainingtool
     class GenerateOutput
     {
         //Methode zur Prüfung der Eingabe
-        public static bool proofTextBoxes(string[] inputWords)
+        public bool proofTextBoxes(string[] inputWords)
         {
             //Bool'sche Variable: Rückgabewert der Funktion erstellen
             bool boolReturn = true;
@@ -26,7 +26,7 @@ namespace Stenographie_Trainingtool
         }
 
         //Methode zur Generierung der Zeichenkette
-        public static string generateOutput(decimal amountElements, string[] elements)
+        public string generateOutput(decimal amountElements, string[] elements)
         {
             string elementOutput = "";
             decimal elementAmount = amountElements;
@@ -49,7 +49,7 @@ namespace Stenographie_Trainingtool
         }
 
         //Methode zur Ausgabe der Output-Liste
-        public static void outputElementList(string outputType, string outputContent)
+        public void outputElementList(string outputType, string outputContent)
         {
             //Ausgabetyp abrufen
             switch (outputType)
@@ -65,7 +65,7 @@ namespace Stenographie_Trainingtool
                     break;
                 //Kein Parameter -> Fehlermeldung
                 default:
-                    MessageBox.Show("Issue #000001\nKeine Output-Zuweisung - Bitte melden sie sich beim Entwickler!");
+                    MessageBox.Show("Issue #000001\r\nKeine Output-Zuweisung - Bitte melden sie sich beim Entwickler!");
                     break;
             }
         }

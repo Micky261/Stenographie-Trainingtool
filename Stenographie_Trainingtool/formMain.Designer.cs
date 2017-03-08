@@ -44,10 +44,13 @@
             this.tooltipInputWordletters = new System.Windows.Forms.ToolTip(this.components);
             this.tooltipInputAmount = new System.Windows.Forms.ToolTip(this.components);
             this.pictureToolInfo = new System.Windows.Forms.PictureBox();
+            this.groupboxAssistants = new System.Windows.Forms.GroupBox();
+            this.buttonAssistant_ICan = new System.Windows.Forms.Button();
             this.groupboxInputs.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.textboxInputAmount)).BeginInit();
             this.groupboxOutput.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureToolInfo)).BeginInit();
+            this.groupboxAssistants.SuspendLayout();
             this.SuspendLayout();
             // 
             // richboxInputWordletter
@@ -145,10 +148,25 @@
             this.pictureToolInfo.TabStop = false;
             this.pictureToolInfo.Click += new System.EventHandler(this.pictureToolInfo_Click);
             // 
+            // groupboxAssistants
+            // 
+            this.groupboxAssistants.Controls.Add(this.buttonAssistant_ICan);
+            resources.ApplyResources(this.groupboxAssistants, "groupboxAssistants");
+            this.groupboxAssistants.Name = "groupboxAssistants";
+            this.groupboxAssistants.TabStop = false;
+            // 
+            // buttonAssistant_ICan
+            // 
+            resources.ApplyResources(this.buttonAssistant_ICan, "buttonAssistant_ICan");
+            this.buttonAssistant_ICan.Name = "buttonAssistant_ICan";
+            this.buttonAssistant_ICan.UseVisualStyleBackColor = true;
+            this.buttonAssistant_ICan.Click += new System.EventHandler(this.buttonAssistant_ICan_Click);
+            // 
             // formStenoTrainerMain
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.groupboxAssistants);
             this.Controls.Add(this.pictureToolInfo);
             this.Controls.Add(this.groupboxOutput);
             this.Controls.Add(this.groupboxInputs);
@@ -161,6 +179,7 @@
             this.groupboxOutput.ResumeLayout(false);
             this.groupboxOutput.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureToolInfo)).EndInit();
+            this.groupboxAssistants.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -181,6 +200,8 @@
         private System.Windows.Forms.NumericUpDown textboxInputAmount;
         private System.Windows.Forms.PictureBox pictureToolInfo;
         private System.Windows.Forms.Button buttonSavePDF;
+        private System.Windows.Forms.GroupBox groupboxAssistants;
+        private System.Windows.Forms.Button buttonAssistant_ICan;
     }
 }
 

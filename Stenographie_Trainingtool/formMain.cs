@@ -60,6 +60,13 @@ namespace Stenographie_Trainingtool
             }
         }
 
+        private void pictureToolInfo_Click(object sender, EventArgs e)
+        {
+            //Info-Fenster aufrufen
+            formToolInfo formToolInfoShow = new formToolInfo();
+            formToolInfoShow.Show();
+        }
+
         //Methode Als PDF speichern
         private void buttonSavePDF_Click(object sender, EventArgs e)
         {
@@ -77,10 +84,17 @@ namespace Stenographie_Trainingtool
             buttonSavePDF.Enabled = true;
         }
 
-        private void pictureToolInfo_Click(object sender, EventArgs e)
+        private void buttonAssistant_ICan_Click(object sender, EventArgs e)
         {
-            formToolInfo formToolInfoShow = new formToolInfo();
-            formToolInfoShow.Show();
+            //Button deaktivieren
+            buttonAssistant_ICan.Enabled = false;
+
+            //"Ich kann..."-Hilfsprogramm aufrufen
+            formICan formICanOpen = new formICan();
+            formICanOpen.Show();
+
+            //Button reaktivieren
+            buttonAssistant_ICan.Enabled = true;
         }
     }
 }

@@ -16,7 +16,7 @@ namespace Stenographie_Trainingtool
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new formICan());
+            Application.Run(new formStenoTrainerMain());
         }
     }
 }

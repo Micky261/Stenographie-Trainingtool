@@ -76,7 +76,7 @@
             this.kabelToolAuthor.Name = "kabelToolAuthor";
             this.kabelToolAuthor.Size = new System.Drawing.Size(72, 13);
             this.kabelToolAuthor.TabIndex = 3;
-            this.kabelToolAuthor.Text = "Version: 1.1.2";
+            this.kabelToolAuthor.Text = "Version: 1.2.0";
             // 
             // labelToolVersion
             // 

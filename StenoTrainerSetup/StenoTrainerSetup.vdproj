@@ -15,26 +15,26 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_0216812AC4914A12B64F8E04DFAB9B47"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_1BA6448753088B22D6F3028FDC5B366E"
+        "OwnerKey" = "8:_0216812AC4914A12B64F8E04DFAB9B47"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_3D1CD6F123C84AE53E1E934CC76E9FB1"
-        "OwnerKey" = "8:_5B58FD0E711F4373A942BF1B68E69A64"
+        "OwnerKey" = "8:_0216812AC4914A12B64F8E04DFAB9B47"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_5B58FD0E711F4373A942BF1B68E69A64"
+        "MsmKey" = "8:_5150E35FA6184D3FB3C003BCD3744186"
         "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_B986B1D2F5A54C6094602FBC9A056FD1"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_D3173BBEE9E721F350F5B7218B6A3706"
-        "OwnerKey" = "8:_5B58FD0E711F4373A942BF1B68E69A64"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -46,13 +46,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_5B58FD0E711F4373A942BF1B68E69A64"
+        "OwnerKey" = "8:_0216812AC4914A12B64F8E04DFAB9B47"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_D3173BBEE9E721F350F5B7218B6A3706"
+        "OwnerKey" = "8:_1BA6448753088B22D6F3028FDC5B366E"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -73,6 +73,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.5"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.5 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.5"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -89,6 +105,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.5"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.5 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.5"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -118,6 +150,37 @@
         }
         "File"
         {
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_1BA6448753088B22D6F3028FDC5B366E"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:PdfSharp, Version=1.32.2608.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_1BA6448753088B22D6F3028FDC5B366E"
+                    {
+                    "Name" = "8:PdfSharp.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:PdfSharp.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_3DBD08FCD8B34922B2F3C5A1C0F78CD4"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_3D1CD6F123C84AE53E1E934CC76E9FB1"
             {
             "AssemblyRegister" = "3:1"
@@ -149,7 +212,7 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B986B1D2F5A54C6094602FBC9A056FD1"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5150E35FA6184D3FB3C003BCD3744186"
             {
             "SourcePath" = "8:..\\Stenographie_Trainingtool\\Resources\\stenographie_trainingtool_icon.ico"
             "TargetName" = "8:stenographie_trainingtool_icon.ico"
@@ -167,37 +230,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_D3173BBEE9E721F350F5B7218B6A3706"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:PdfSharp, Version=1.32.2608.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_D3173BBEE9E721F350F5B7218B6A3706"
-                    {
-                    "Name" = "8:PdfSharp.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:PdfSharp.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_3DBD08FCD8B34922B2F3C5A1C0F78CD4"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
         }
@@ -267,15 +299,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Stenographie Trainingtool"
-        "ProductCode" = "8:{251E6ACF-A356-4424-8BB2-5A3D8EE97608}"
-        "PackageCode" = "8:{2DEF2D57-9AE6-475C-930C-FFCE20DF1E04}"
+        "ProductCode" = "8:{46E19FF1-350E-404A-A1DD-4D279B4AC44C}"
+        "PackageCode" = "8:{2DE7D4F9-3B51-4604-9954-15FACE92FF61}"
         "UpgradeCode" = "8:{0420CBB3-61DF-4015-8AF7-220FD0089A02}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:FALSE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.1.2"
+        "ProductVersion" = "8:1.2.0"
         "Manufacturer" = "8:StenoTrainer"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -388,7 +420,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_AF1D0C77D79B46339C7136ED363268B6"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_975BECFDC1264F05AABDCD9576D536DC"
             {
             "Name" = "8:Stenographie Trainingtool"
             "Arguments" = "8:"
@@ -396,24 +428,24 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_5B58FD0E711F4373A942BF1B68E69A64"
-            "Folder" = "8:_DBB681D2B8AB47049B5B2AC05FA19365"
-            "WorkingFolder" = "8:_3DBD08FCD8B34922B2F3C5A1C0F78CD4"
-            "Icon" = "8:_B986B1D2F5A54C6094602FBC9A056FD1"
-            "Feature" = "8:"
-            }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_C0A3A98147DB451EA3CD7B91716D3BE3"
-            {
-            "Name" = "8:Stenographie Trainingtool"
-            "Arguments" = "8:"
-            "Description" = "8:"
-            "ShowCmd" = "3:1"
-            "IconIndex" = "3:0"
-            "Transitive" = "11:FALSE"
-            "Target" = "8:_5B58FD0E711F4373A942BF1B68E69A64"
+            "Target" = "8:_0216812AC4914A12B64F8E04DFAB9B47"
             "Folder" = "8:_AC4AC9D8B62D448D85D93A0F6456A4C9"
             "WorkingFolder" = "8:_3DBD08FCD8B34922B2F3C5A1C0F78CD4"
-            "Icon" = "8:_B986B1D2F5A54C6094602FBC9A056FD1"
+            "Icon" = "8:_5150E35FA6184D3FB3C003BCD3744186"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_97C9A4F7BFFC4AB9BB8F264EE234AC11"
+            {
+            "Name" = "8:Stenographie Trainingtool"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_0216812AC4914A12B64F8E04DFAB9B47"
+            "Folder" = "8:_DBB681D2B8AB47049B5B2AC05FA19365"
+            "WorkingFolder" = "8:_3DBD08FCD8B34922B2F3C5A1C0F78CD4"
+            "Icon" = "8:_5150E35FA6184D3FB3C003BCD3744186"
             "Feature" = "8:"
             }
         }
@@ -815,7 +847,7 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_5B58FD0E711F4373A942BF1B68E69A64"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_0216812AC4914A12B64F8E04DFAB9B47"
             {
             "SourcePath" = "8:..\\Stenographie_Trainingtool\\obj\\Release\\Stenographie_Trainingtool.exe"
             "TargetName" = "8:"

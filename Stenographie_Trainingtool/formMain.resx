@@ -252,6 +252,54 @@
   <data name="&gt;&gt;labelInputAmount.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="&gt;&gt;textboxInputAmount.Name" xml:space="preserve">
+    <value>textboxInputAmount</value>
+  </data>
+  <data name="&gt;&gt;textboxInputAmount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textboxInputAmount.Parent" xml:space="preserve">
+    <value>groupboxInputs</value>
+  </data>
+  <data name="&gt;&gt;textboxInputAmount.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;labelInputWordletter.Name" xml:space="preserve">
+    <value>labelInputWordletter</value>
+  </data>
+  <data name="&gt;&gt;labelInputWordletter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelInputWordletter.Parent" xml:space="preserve">
+    <value>groupboxInputs</value>
+  </data>
+  <data name="&gt;&gt;labelInputWordletter.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupboxInputs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="groupboxInputs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>349, 325</value>
+  </data>
+  <data name="groupboxInputs.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="groupboxInputs.Text" xml:space="preserve">
+    <value>Eingabe</value>
+  </data>
+  <data name="&gt;&gt;groupboxInputs.Name" xml:space="preserve">
+    <value>groupboxInputs</value>
+  </data>
+  <data name="&gt;&gt;groupboxInputs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupboxInputs.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupboxInputs.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
   <data name="textboxInputAmount.Location" type="System.Drawing.Point, System.Drawing">
     <value>204, 19</value>
   </data>
@@ -306,28 +354,52 @@
   <data name="&gt;&gt;labelInputWordletter.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="groupboxInputs.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
+  <data name="&gt;&gt;buttonSavePDF.Name" xml:space="preserve">
+    <value>buttonSavePDF</value>
   </data>
-  <data name="groupboxInputs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>349, 325</value>
+  <data name="&gt;&gt;buttonSavePDF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="groupboxInputs.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="&gt;&gt;buttonSavePDF.Parent" xml:space="preserve">
+    <value>groupboxOutput</value>
   </data>
-  <data name="groupboxInputs.Text" xml:space="preserve">
-    <value>Eingabe</value>
+  <data name="&gt;&gt;buttonSavePDF.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;groupboxInputs.Name" xml:space="preserve">
-    <value>groupboxInputs</value>
+  <data name="&gt;&gt;buttonOpenDialog.Name" xml:space="preserve">
+    <value>buttonOpenDialog</value>
   </data>
-  <data name="&gt;&gt;groupboxInputs.Type" xml:space="preserve">
+  <data name="&gt;&gt;buttonOpenDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonOpenDialog.Parent" xml:space="preserve">
+    <value>groupboxOutput</value>
+  </data>
+  <data name="&gt;&gt;buttonOpenDialog.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupboxOutput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>367, 12</value>
+  </data>
+  <data name="groupboxOutput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 118</value>
+  </data>
+  <data name="groupboxOutput.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="groupboxOutput.Text" xml:space="preserve">
+    <value>Ausgabe</value>
+  </data>
+  <data name="&gt;&gt;groupboxOutput.Name" xml:space="preserve">
+    <value>groupboxOutput</value>
+  </data>
+  <data name="&gt;&gt;groupboxOutput.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;groupboxInputs.Parent" xml:space="preserve">
+  <data name="&gt;&gt;groupboxOutput.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;groupboxInputs.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;groupboxOutput.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="buttonSavePDF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
@@ -337,7 +409,7 @@
     <value>6, 90</value>
   </data>
   <data name="buttonSavePDF.Size" type="System.Drawing.Size, System.Drawing">
-    <value>186, 23</value>
+    <value>187, 23</value>
   </data>
   <data name="buttonSavePDF.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -384,44 +456,17 @@
   <data name="&gt;&gt;buttonOpenDialog.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="groupboxOutput.Location" type="System.Drawing.Point, System.Drawing">
-    <value>367, 12</value>
-  </data>
-  <data name="groupboxOutput.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 118</value>
-  </data>
-  <data name="groupboxOutput.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="groupboxOutput.Text" xml:space="preserve">
-    <value>Ausgabe</value>
-  </data>
-  <data name="&gt;&gt;groupboxOutput.Name" xml:space="preserve">
-    <value>groupboxOutput</value>
-  </data>
-  <data name="&gt;&gt;groupboxOutput.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupboxOutput.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;groupboxOutput.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <metadata name="tooltipInputWordletters.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>153, 17</value>
-  </metadata>
-  <metadata name="tooltipOutput.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>494, 17</value>
+    <value>17, 17</value>
   </metadata>
   <metadata name="tooltipInputAmount.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>334, 17</value>
+    <value>198, 17</value>
   </metadata>
   <data name="pictureToolInfo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="pictureToolInfo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>551, 321</value>
+    <value>551, 266</value>
   </data>
   <data name="pictureToolInfo.Size" type="System.Drawing.Size, System.Drawing">
     <value>16, 16</value>
@@ -439,11 +484,68 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pictureToolInfo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;buttonAssistant_ICan.Name" xml:space="preserve">
+    <value>buttonAssistant_ICan</value>
+  </data>
+  <data name="&gt;&gt;buttonAssistant_ICan.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonAssistant_ICan.Parent" xml:space="preserve">
+    <value>groupboxAssistants</value>
+  </data>
+  <data name="&gt;&gt;buttonAssistant_ICan.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <metadata name="saveFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
+  <data name="groupboxAssistants.Location" type="System.Drawing.Point, System.Drawing">
+    <value>367, 288</value>
+  </data>
+  <data name="groupboxAssistants.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 49</value>
+  </data>
+  <data name="groupboxAssistants.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="groupboxAssistants.Text" xml:space="preserve">
+    <value>Hilfsprogramme</value>
+  </data>
+  <data name="&gt;&gt;groupboxAssistants.Name" xml:space="preserve">
+    <value>groupboxAssistants</value>
+  </data>
+  <data name="&gt;&gt;groupboxAssistants.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupboxAssistants.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupboxAssistants.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="buttonAssistant_ICan.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 17</value>
+  </data>
+  <data name="buttonAssistant_ICan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 23</value>
+  </data>
+  <data name="buttonAssistant_ICan.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="buttonAssistant_ICan.Text" xml:space="preserve">
+    <value>Ich kann... öffnen</value>
+  </data>
+  <data name="&gt;&gt;buttonAssistant_ICan.Name" xml:space="preserve">
+    <value>buttonAssistant_ICan</value>
+  </data>
+  <data name="&gt;&gt;buttonAssistant_ICan.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonAssistant_ICan.Parent" xml:space="preserve">
+    <value>groupboxAssistants</value>
+  </data>
+  <data name="&gt;&gt;buttonAssistant_ICan.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -2196,6 +2298,9 @@
         SA4BJIcAkkMAySGA5BBAcgggOQSQHAJIDgEkhwCS8x+tWLuSV3BP+AAAAABJRU5ErkJggg==
 </value>
   </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
   </data>
@@ -2208,23 +2313,11 @@
   <data name="&gt;&gt;tooltipInputWordletters.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tooltipOutput.Name" xml:space="preserve">
-    <value>tooltipOutput</value>
-  </data>
-  <data name="&gt;&gt;tooltipOutput.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;tooltipInputAmount.Name" xml:space="preserve">
     <value>tooltipInputAmount</value>
   </data>
   <data name="&gt;&gt;tooltipInputAmount.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;saveFileDialog1.Name" xml:space="preserve">
-    <value>saveFileDialog1</value>
-  </data>
-  <data name="&gt;&gt;saveFileDialog1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>formStenoTrainerMain</value>

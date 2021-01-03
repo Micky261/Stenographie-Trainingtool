@@ -14,7 +14,7 @@ The trainingtool is a simple tool, it has only few functions, but it can be very
 
 ## How do I set the tool up?
 
-The setup is really simple. Just download the recent version from the repository, unzip and install the msi file: https://bitbucket.org/Micky261/stenographie_trainingtool/downloads/
+The setup is really simple. Just download the recent version from the repository, unzip and install the msi file: https://github.com/Micky261/Stenographie-Trainingtool/releases
 
 ## How to make contributions?
 
@@ -23,4 +23,4 @@ If you have a new idea for this project or get a failure, see next point please.
 
 ## How can I contact you?
 
-Whether you have an error, issue or idea, you can simply open a ticket. Just click on the link and create one: https://bitbucket.org/Micky261/stenographie_trainingtool/issues/
+Whether you have an error, issue or idea, you can simply open a ticket. Just click on the link and create one: https://github.com/Micky261/Stenographie-Trainingtool/issues
